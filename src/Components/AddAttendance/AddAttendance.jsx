@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { collection, addDoc, doc, setDoc, Timestamp } from "firebase/firestore";
-import { db, auth } from "../../Firebase/Config";
+// import { db, auth } from "../../Firebase/Config";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -144,7 +144,7 @@ const AddAttendance= () => {
             </button>
             <button 
               onClick={() => {
-                navigate("/readcourse");
+                navigate("/");
               }}
               className="bg-blue-800 p-1 w-full mt-3 md:w-4/5 md:mx-auto  md:p-2 md:block  rounded-md text-white text-xl"
             >

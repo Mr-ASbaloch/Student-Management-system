@@ -143,6 +143,7 @@ const AddStudents = () => {
             className="p-2 w-full md:w-2/5 rounded-md my-1 text-blue-500 mb-2 outline-none focus:border-dashed"
           />
            
+      
 
       
             <button

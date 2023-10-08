@@ -7,6 +7,7 @@ import Nav from "./Nav";
 const Dashboard = () => {
   return (
     <div>
+      
       <div class="bg-[#F5F7F8] font-family-karla flex">
         {/* <aside class="relative bg-[#29363C] h-screen w-64 hidden sm:block shadow-xl">
           <div class="p-6">
@@ -65,8 +66,9 @@ const Dashboard = () => {
         </aside> */}
         <Sidebar/>
         <div>
-          <Nav/>
+       <Nav/>
          <DisplayData />
+   
         </div>
       </div>
     </div>

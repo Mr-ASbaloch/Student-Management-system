@@ -45,9 +45,9 @@ const ReadData = () => {
         </h1> */}
        
         <div className="flex flex-col">
-            <h1 className="text-center mt-5 md:text-5xl text-blue-600 font-light"> Students Record </h1>
+            <h1 className="text-center mt-5 md:text-4xl text-blue-600 font-semibold"> Students Record </h1>
           <table className="border  rounded-md capitalize md:mx-6 md:mt-8  bg-slate-100 shadow-md mx-auto mt-8">
-            <tr className="text-blue-700 shadow-sm  p-2">
+            <tr className="text-white shadow-sm  bg-gray-800 p-2">
               <th className="p-2 border-r ">Full Name</th>
 
               <th className="p-2 border-r ">Gender</th>

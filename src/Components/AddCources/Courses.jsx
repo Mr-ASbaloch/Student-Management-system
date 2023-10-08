@@ -1,18 +1,19 @@
-import React from 'react'
-import Sidebar from '../Dashboard/Sidebar'
+import React from "react";
+import Sidebar from "../Dashboard/Sidebar";
+import AddCources from "./AddCources";
 
 const Courses = () => {
   return (
-    <div>
-    <div class="bg-[#F5F7F8] font-family-karla flex">
+    <>
+      <div class="bg-[#F5F7F8] font-family-karla flex">
+        <Sidebar />
+        <div>
+          <AddCources />
+          
+        </div>
+      </div>
+    </>
+  );
+};
 
-<Sidebar/>
-<div>
-    courses
-</div>
-    </div>
-    </div>
-  )
-}
-
-export default Courses
+export default Courses;

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div>
-         <aside class="relative bg-[#29363C] h-screen w-64 hidden sm:block shadow-xl">
+         <aside class="relative  bg-[#29363C] h-screen w-64 hidden sm:block shadow-xl">
           <div class="p-6">
             <img
               src="https://mir-s3-cdn-cf.behance.net/projects/404/aba3a466532591.Y3JvcCwzNjgyLDI4ODIsMTQ1LDYz.png"
@@ -29,7 +29,7 @@ const Sidebar = () => {
               class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item"
             >
               <i class="fas fa-sticky-note mr-3"></i>
-              Students Record
+              Students Pannel
             </Link>
             <Link
               to={"/courses"}

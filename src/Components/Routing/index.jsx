@@ -5,6 +5,8 @@ import Dashboard from '../Dashboard/Dashboard'
 import Students from '../AddStudents/Students'
 import Courses from '../AddCources/Courses'
 import Attendance from '../AddAttendance/Attendance'
+import ReadData from '../AddStudents/ReadStudents'
+import ReadCourse from '../AddCources/ReadCources'
 
 const Index = () => {
   return (
@@ -14,6 +16,8 @@ const Index = () => {
     <Route  path='/students' element={<Students/>} />
     <Route  path='/courses' element={<Courses/>} />
     <Route  path='/attendance' element={<Attendance/>} />
+    <Route  path='/read' element={<ReadData/>} />
+    <Route  path='/readcourse' element={<ReadCourse/>} />
     <Route  path='/*' element={<>page not fount</>} />
 </Routes>
 

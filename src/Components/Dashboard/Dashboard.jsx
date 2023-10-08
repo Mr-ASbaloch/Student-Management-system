@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import DisplayData from "./DisplayData";
 import Sidebar from "./Sidebar";
+import Nav from "./Nav";
 
 const Dashboard = () => {
   return (
@@ -64,6 +65,7 @@ const Dashboard = () => {
         </aside> */}
         <Sidebar/>
         <div>
+          <Nav/>
          <DisplayData />
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from '../Dashboard/Sidebar'
+import AddAttendance from './AddAttendance'
 
 const Attendance = () => {
   return (
@@ -10,7 +11,7 @@ const Attendance = () => {
 
             <Sidebar/>
             <div>
-                attendance
+                <AddAttendance/>
             </div>
         </div>
 
